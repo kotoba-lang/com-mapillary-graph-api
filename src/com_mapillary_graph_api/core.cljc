@@ -16,7 +16,7 @@
 
   この ns は token を保持しない。token は呼び出し側が capability として渡す
   （鍵をコードに焼かない）。"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def base-url "https://graph.mapillary.com")
 
