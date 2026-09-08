@@ -1,6 +1,6 @@
 (ns com-mapillary-graph-api.core-test
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [com-mapillary-graph-api.core :as mly]))
 
 (def tile {:west 139.7650 :south 35.6800 :east 139.7690 :north 35.6830})
