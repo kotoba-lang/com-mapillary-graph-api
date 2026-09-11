@@ -71,7 +71,7 @@ object--sign--information          ┘
 ## テスト
 
 ```bash
-nbb --classpath src:test test/run.cljk     # 8 tests / 32 assertions
+kbb --backend sci --classpath src:test test/run.cljk     # 8 tests / 32 assertions
 ```
 
 画像および検出データは Mapillary / その contributors のもので、利用は Mapillary の
